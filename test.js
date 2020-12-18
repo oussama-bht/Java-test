@@ -7,6 +7,7 @@ $(document).ready(function(){
         if ( !$(this).hasClass("active") ){
             $(this).addClass("active");
         } else {
+            console.log();
             $(this).removeClass("active");
         }
         $(".prod").hide();
