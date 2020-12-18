@@ -7,7 +7,7 @@ $(document).ready(function(){
         if ( !$(this).hasClass("active") ){
             $(this).addClass("active");
         } else {
-            console.log();
+            console.log("oussama");
             $(this).removeClass("active");
         }
         $(".prod").hide();
